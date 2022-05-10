@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.1)  10 MAY 2022 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.1)  10 MAY 2022 16:03
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
@@ -1311,8 +1312,8 @@ AED: lastpage setting LastPage
  (main.aux (abntex2-modelo-include-comandos.aux)) ) 
 Here is how much of TeX's memory you used:
  24142 strings out of 478583
- 397888 string characters out of 2849101
- 867799 words of memory out of 3000000
+ 397829 string characters out of 2849101
+ 867657 words of memory out of 3000000
  41656 multiletter control sequences out of 15000+600000
  562527 words of font info for 248 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1324,7 +1325,7 @@ pe1/urw/symbol/usyr.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/sym
 bol/usyr.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.p
 fb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/
 oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (24 pages, 201287 bytes).
+Output written on main.pdf (24 pages, 201180 bytes).
 PDF statistics:
  328 PDF objects out of 1000 (max. 8388607)
  78 named destinations out of 1000 (max. 500000)
