@@ -132,4 +132,4 @@ Veja a seguir como inserir alguns elementos no seu texto.
 \end{algorithm}
 ```
 
-### Aviso: Este modelo não é oficial, apenas compartilho o modelo que chegou em minhas mãos após modificá-lo para maior praticidade de uso pessoal.
+## Aviso: Este modelo não é oficial, apenas compartilho o modelo que chegou em minhas mãos após modificá-lo para maior praticidade de uso pessoal.
