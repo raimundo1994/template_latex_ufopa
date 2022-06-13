@@ -17,8 +17,10 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ### Como inserir uma Tabela
 ```tex
 \begin{table}[h!]
+
 \centering
 \caption{\label{tab:Elemento} Tabela com valores  energéticas e fotopicos.}
+
 	\begin{tabular}{ccll}
 		\toprule
 		Elemento & Intervalo Energético (MeV) & Fotopico (MeV) & Isótopo \\
@@ -29,7 +31,9 @@ Veja a seguir como inserir alguns elementos no seu texto.
 		Contagem Total & 0.42-2.81 & - & - \\
 		\bottomrule
 	\end{tabular}
+	
 \legend{Fonte: Modificada de \citeonline{iaea2003guidelines,ferreira2016gamaespectrometria}.}
+
 \end{table}
 ```
 
@@ -38,6 +42,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 \begin{quadro}[ht]
 	
 	\caption{\label{aerogeofísico} Levantamento aerogeofísico Tucuruí (1097).}
+	
 	\begin{tabular}{ |l|l|l| }
 		\hline
 		\multicolumn{3}{ |c| }{PROJETO AEROGEOFISICO TUCURUÍ- (PROJETO 1097)} \\
@@ -59,6 +64,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 		\hline
 	\end{tabular}
 	\vspace{1mm}
+	
 	\legend{Fonte: Do autor}
 	
 \end{quadro}
@@ -67,6 +73,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ### Como inserir uma figura
 ```tex
 \begin{figure}[!h]
+
 	\caption{\label{radiação} Espectros de radiação gama..}
 	\vspace{-6mm}
 	
@@ -76,6 +83,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 	
 	\vspace{-4mm}
 	\legend{Fonte: Modificado de \citeonline{foote1969improvement,ribeiro2014aerogamaespectrometria} }
+	
 \end{figure}
 ```
 
