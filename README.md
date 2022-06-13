@@ -106,10 +106,6 @@ Veja a seguir como inserir alguns elementos no seu texto.
 % Seções Quaternárias
 \subsubsection{Objetivo Geral 4}
 \label{sec:objetivo-geral-4}
-
-% Seções Quinárias
-\subsubsubsection{Objetivo Geral 5}
-\label{sec:objetivo-geral-5}
 ```
 
 ## Aviso: Este modelo não é oficial, apenas compartilho o modelo que chegou em minhas mãos após modificá-lo para maior praticidade de uso pessoal.
