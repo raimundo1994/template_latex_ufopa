@@ -17,73 +17,66 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ### Como inserir uma Tabela
 ```tex
 \begin{table}[h!]
-	\centering
-	\Caption{\label{tab:label_da_tabela} Legenda da Tabela}
-	\UFCtab{}{
-		\begin{tabular}{ccll}
-			\toprule
-	    		Quisque & pharetra & tempus & vulputate \\
-			\midrule \midrule
-				E1 & Complete coverage & Both splice sites \\
-				E2 & Complete coverage & Both splice sites \\
-				E3 & Partial coverage & Both splice sites & Both \\
-				E4 & Partial coverage & One splice site & Both \\
-				E5 & Complete or coverage & No splice & Both \\
-				E6 & No coverage & No splice sites\\
-			\bottomrule
-		\end{tabular}
-	}{
-		\Fonte{Elaborado pelo autor}
-    }
+\centering
+\caption{\label{tab:Elemento} Tabela com valores  energéticas e fotopicos.}
+	\begin{tabular}{ccll}
+		\toprule
+		Elemento & Intervalo Energético (MeV) & Fotopico (MeV) & Isótopo \\
+		\midrule \midrule
+		Pótassio &1.37-1.57 & 1.46 & $K^{40}$ \\
+		Urânio & 1.66-1.86 & 1.76  & $Bi^{214}$  \\
+		Tório & 2.41-2.81 & 2.61 &$Tl^{208}$ \\
+		Contagem Total & 0.42-2.81 & - & - \\
+		\bottomrule
+	\end{tabular}
+\legend{Fonte: Modificada de \citeonline{iaea2003guidelines,ferreira2016gamaespectrometria}.}
 \end{table}
 ```
 
 ### Como inserir um Quadro
 ```tex
-\begin{quadro}[h!]
-	\centering
-	\Caption{\label{qua:label_do_quadro} Legenda do Quadro}
-	\UFCqua{}{
-		\begin{tabular}{|c|c|}
-			\hline
-			Quisque & pharetra \\
-			\hline
-			E1 & Complete coverage  \\
-			\hline
-			E2 & Complete coverage \\
-			\hline
-		\end{tabular}
-	}{
-		\Fonte{Elaborado pelo autor}
-	}
+\begin{quadro}[ht]
+	
+	\caption{\label{aerogeofísico} Levantamento aerogeofísico Tucuruí (1097).}
+	\begin{tabular}{ |l|l|l| }
+		\hline
+		\multicolumn{3}{ |c| }{PROJETO AEROGEOFISICO TUCURUÍ- (PROJETO 1097)} \\
+		\hline
+		\multirow{7}{*}{AQUISIÇÃO DE DADOS}
+		&Ano de aquisição & 2010 \\
+		&Velocidade de voo&266 Km/h \\
+		&Altura de voo&100 m	 \\
+		&Espaçamento entre linhas de voo&500 m\\
+		&Orientação das linhas de voo & N-S\\
+		&Espaçamento entre linhas de controle&10 Km\\
+		&Orientação das linhas de controle&E-W\\
+		\hline
+		\multirow{4}{*}{MÉTODO GEOFÍSICO}
+		& Magnetometria-Taxa de amostragem& 0,1 s \\
+		& Aeromagnetomêtro & Scintrex CS-3/0,001nT\\
+		& Gamaespectrometria-Taxa de amostragem& 1,0 s\\
+		& Aerogamaespectrômetro&Exploranium GR-820 \\
+		\hline
+	\end{tabular}
+	\vspace{1mm}
+	\legend{Fonte: Do autor}
+	
 \end{quadro}
 ```
 
 ### Como inserir uma figura
 ```tex
-\begin{figure}[h!]
-	\centering
-	\Caption{\label{fig:label_da_figura} Legenda da Figura}
-	\UFCfig{}{
-	    \includegraphics[width=8cm]{figuras/figura-1}
-	}{
-	    \Fonte{Elaborado pelo autor}
-	}
+\begin{figure}[!h]
+	\caption{\label{radiação} Espectros de radiação gama..}
+	\vspace{-6mm}
+	
+	\begin{center}
+		\includegraphics[scale=0.9]{imagens/figura_10.jpg}  
+	\end{center}
+	
+	\vspace{-4mm}
+	\legend{Fonte: Modificado de \citeonline{foote1969improvement,ribeiro2014aerogamaespectrometria} }
 \end{figure}
-```
-
-### Como inserir uma alínea
-```tex
-\begin{alineas}
-	\item Lorem ipsum dolor sit amet;
-    \item Praesent vitae nulla varius;
-	\item Praesent quis erat eleifend;
-	\item Mauris facilisis odio eu:
-	\begin{subalineas}
-		\item Integer non lacinia magna;
-		\item Proin mattis placerat risus.
-	\end{subalineas}
-\end{alineas}
 ```
 
 ### Como criar Capítulos
@@ -109,27 +102,6 @@ Veja a seguir como inserir alguns elementos no seu texto.
 % Seções Quinárias
 \subsubsubsection{Objetivo Geral 5}
 \label{sec:objetivo-geral-5}
-```
-
-### Como inserir um algoritmo
-```tex
-\begin{algorithm}[h!]
-	\SetSpacedAlgorithm
-	\caption{\label{alg:algoritmo_de_colonica_de_formigas}Algoritmo de Otimização por Colônia de Formiga}
-	\Entrada{Entrada do Algoritmo}
-	\Saida{Saida do Algoritmo}
-	\Inicio{
-		Atribua os valores dos parâmetros\;
-		Inicialize as trilhas de feromônios\;
-		\Enqto{não atingir o critério de parada}{
-			\Para{cada formiga}{
-				Construa as Soluções\;
-			}
-			Aplique Busca Local (Opcional)\;
-			Atualize o Feromônio\;
-		}
-	}
-\end{algorithm}
 ```
 
 ## Aviso: Este modelo não é oficial, apenas compartilho o modelo que chegou em minhas mãos após modificá-lo para maior praticidade de uso pessoal.
