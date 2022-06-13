@@ -27,44 +27,44 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 3 entries,
+You've used 5 entries,
             6714 wiz_defined-function locations,
-            1208 strings with 9518 characters,
-and the built_in function-call counts, 1543 in all, are:
-= -- 242
+            1218 strings with 9724 characters,
+and the built_in function-call counts, 2431 in all, are:
+= -- 321
 > -- 0
 < -- 0
 + -- 47
 - -- 0
-* -- 73
-:= -- 237
-add.period$ -- 4
-call.type$ -- 3
-change.case$ -- 12
-chr.to.int$ -- 2
-cite$ -- 1
-duplicate$ -- 32
-empty$ -- 136
+* -- 131
+:= -- 323
+add.period$ -- 13
+call.type$ -- 5
+change.case$ -- 25
+chr.to.int$ -- 4
+cite$ -- 3
+duplicate$ -- 87
+empty$ -- 251
 format.name$ -- 0
-if$ -- 394
+if$ -- 645
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 34
-newline$ -- 13
+missing$ -- 63
+newline$ -- 23
 num.names$ -- 0
-pop$ -- 42
+pop$ -- 66
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 15
 quote$ -- 0
-skip$ -- 151
+skip$ -- 205
 stack$ -- 1
-substring$ -- 71
-swap$ -- 11
+substring$ -- 107
+swap$ -- 35
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
+while$ -- 5
 width$ -- 0
-write$ -- 23
+write$ -- 54
