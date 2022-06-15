@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.1)  13 JUN 2022 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.1)  15 JUN 2022 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,7 +1051,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 140.
 
 
 Writing index file main.idx 
-(main.aux)
+(main.aux (chap01.aux) (chap02.aux) (chap03.aux) (chap04.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
@@ -1073,7 +1073,8 @@ LaTeX Font Info:    ... okay on input line 160.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 160.
 LaTeX Font Info:    ... okay on input line 160.
 Package hyperref Info: Link coloring ON on input line 160.
- (/home/oscar/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+
+(/home/oscar/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (/home/oscar/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
@@ -1274,31 +1275,55 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 ] (main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 ) [16
 
-] [17
+]
+\openout2 = `chap01.aux'.
+
+ (chap01.tex) [17
 
 
-] [18
-
-] [19
-
-] (main.bbl
-[20
 
 ]
+\openout2 = `chap02.aux'.
+
+ (chap02.tex)
+[18
+
+
+
+
+]
+\openout2 = `chap03.aux'.
+
+ (chap03.tex) [19
+
+
+
+
+]
+\openout2 = `chap04.aux'.
+
+ (chap04.tex) [20
+
+
+
+
+] (main.bbl
 bibitemlist
 ) [21
+
+
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 449.
+(hyperref)                removing `\uppercase' on input line 428.
 
 [22
 
@@ -1310,7 +1335,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 470.
+(hyperref)                removing `\uppercase' on input line 449.
 
 [25
 
@@ -1335,26 +1360,26 @@ AED: lastpage setting LastPage
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
- (main.aux) ) 
+ (main.aux (chap01.aux) (chap02.aux) (chap03.aux) (chap04.aux)) ) 
 Here is how much of TeX's memory you used:
- 24197 strings out of 478583
- 397500 string characters out of 2849101
- 867886 words of memory out of 3000000
- 41697 multiletter control sequences out of 15000+600000
+ 24309 strings out of 478583
+ 400675 string characters out of 2849101
+ 874026 words of memory out of 3000000
+ 41779 multiletter control sequences out of 15000+600000
  549366 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,77p,1003b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/oscar/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</
-home/oscar/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></h
-ome/oscar/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></home/osc
-ar/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/oscar/.miktex/
-texmfs/install/fonts/type1/urw/symbol/usyr.pfb></home/oscar/.miktex/texmfs/inst
-all/fonts/type1/urw/times/utmb8a.pfb></home/oscar/.miktex/texmfs/install/fonts/
-type1/urw/times/utmr8a.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 219808 bytes).
+{/home/oscar/.
+miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/oscar/.miktex/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/oscar/.miktex/texmfs/in
+stall/fonts/type1/urw/helvetic/uhvr8a.pfb></home/oscar/.miktex/texmfs/install/f
+onts/type1/urw/symbol/usyr.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/
+urw/symbol/usyr.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/u
+tmb8a.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb>
+</home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (27 pages, 221351 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 94998 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 95014 words of extra memory for PDF output out of 106986 (max. 10000000)
 

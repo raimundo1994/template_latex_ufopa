@@ -7,7 +7,7 @@ Acesse o guia pelo Link : http://www.ufopa.edu.br/media/file/site/sibi/documento
 Customização da classe abnTeX2: https://github.com/abntex/abntex2
 
 # Editar
-No arquivo principal "main.tex" estão todas as inclusões das partes do trabalho.Utilize um editor de textos de sua preferência (recomendável ATOM ou GEDIT) para editar os arquivos .tex. Todas as seções do trabalho são auto-explicativas bastando seguir as orientações de cada arquivo.
+No arquivo principal "main.tex" estão todas as inclusões das partes do trabalho.Utilize um editor de textos de sua preferência (recomendável ATOM ou GEDIT) para editar os arquivos .tex. Todas as seções do trabalho são auto-explicativas bastando seguir as orientações de cada arquivo. As linhas "\include" no arquivo principal "main.tex", incluem os capítulos no documento. Edite os arquivos "chapxx.tex" de acordo com as suas necessidades. No presente template, são incluídos quatro capítulos, mas é possível utilizar quantos capítulos forem necessários.
 
 As referências devem ser inseridas no arquivo "bibliografia.bib" e serão incluídas na seção de referências do trabalho caso sejam citadas no corpo do trabalho. Podem ser inseridas todas as referências desejadas no arquivo "bibliografia.bib" com intuito de formar uma base de dados, estas referências não aparecerão no trabalho a menos que sejam citadas.Caso deseje pode ser utilizado algum software de gestão de referências para gerar automaticamente o arquivo "bibliografia.bib" (recomendável JabRef).
 
@@ -31,7 +31,7 @@ Veja a seguir como inserir alguns elementos no seu texto.
 		Contagem Total & 0.42-2.81 & - & - \\
 		\bottomrule
 	\end{tabular}
-	
+
 \legend{Fonte: Modificada de \citeonline{iaea2003guidelines,ferreira2016gamaespectrometria}.}
 
 \end{table}
@@ -40,9 +40,9 @@ Veja a seguir como inserir alguns elementos no seu texto.
 ### Como inserir um Quadro
 ```tex
 \begin{quadro}[ht]
-	
+
 	\caption{\label{aerogeofísico} Levantamento aerogeofísico Tucuruí (1097).}
-	
+
 	\begin{tabular}{ |l|l|l| }
 		\hline
 		\multicolumn{3}{ |c| }{PROJETO AEROGEOFISICO TUCURUÍ- (PROJETO 1097)} \\
@@ -64,9 +64,9 @@ Veja a seguir como inserir alguns elementos no seu texto.
 		\hline
 	\end{tabular}
 	\vspace{1mm}
-	
+
 	\legend{Fonte: Do autor}
-	
+
 \end{quadro}
 ```
 
@@ -76,14 +76,14 @@ Veja a seguir como inserir alguns elementos no seu texto.
 
 	\caption{\label{radiação} Espectros de radiação gama..}
 	\vspace{-6mm}
-	
+
 	\begin{center}
 		\includegraphics[scale=0.9]{imagens/figura_10.jpg}  
 	\end{center}
-	
+
 	\vspace{-4mm}
 	\legend{Fonte: Modificado de \citeonline{foote1969improvement,ribeiro2014aerogamaespectrometria} }
-	
+
 \end{figure}
 ```
 
