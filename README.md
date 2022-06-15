@@ -9,7 +9,7 @@ Customização da classe abnTeX2: https://github.com/abntex/abntex2
 # Usando o Template
 
 Para utilizar o template, é necessário ter um editor de LaTeX instalado em seu computador. O
-Texmaker ou TexStudio, é de graça e roda em Linux, Windows, MacOsX. Para utilizar o Texmaker ou TexStudio, é necessário ter um compilador de LaTeX previamente instalado em seu computador. O MiKTeX é uma ótima opção porque é de graça. Sendo assim, instale o MiKTeX e depois o Texmaker.
+Texmaker ou TexStudio, são de graça e roda em Linux, Windows, MacOsX. Para utilizar o Texmaker ou TexStudio, é necessário ter um compilador de LaTeX previamente instalado em seu computador. O MiKTeX é uma ótima opção porque é de graça. Sendo assim, instale o MiKTeX e depois o editor de LaTeX.
 
 No arquivo principal "main.tex" estão todas as inclusões das partes do trabalho.Utilize um editor de LaTeX de sua preferência (Texmaker ou TexStudio) para editar os arquivos .tex. Todas as seções do trabalho são auto-explicativas bastando seguir as orientações de cada arquivo. As linhas "\include" no arquivo principal "main.tex", incluem os capítulos no documento. Edite os arquivos "chapxx.tex", dentro da pasta "capitulos", de acordo com as suas necessidades. No presente template, são incluídos quatro capítulos, mas é possível utilizar quantos capítulos forem necessários.
 
