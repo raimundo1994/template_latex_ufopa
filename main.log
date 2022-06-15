@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.1)  15 JUN 2022 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.4.1)  15 JUN 2022 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,7 +1051,8 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 140.
 
 
 Writing index file main.idx 
-(main.aux (chap01.aux) (chap02.aux) (chap03.aux) (chap04.aux))
+(main.aux (capitulos/chap01.aux) (capitulos/chap02.aux) (capitulos/chap03.aux)
+(capitulos/chap04.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
@@ -1283,33 +1284,34 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 ) [16
 
 ]
-\openout2 = `chap01.aux'.
+\openout2 = `capitulos/chap01.aux'.
 
- (chap01.tex) [17
-
-
-
-]
-\openout2 = `chap02.aux'.
-
- (chap02.tex)
-[18
-
+ (capitulos/chap01.tex) [17
 
 
 
 ]
-\openout2 = `chap03.aux'.
+\openout2 = `capitulos/chap02.aux'.
 
- (chap03.tex) [19
+
+(capitulos/chap02.tex) [18
 
 
 
 
 ]
-\openout2 = `chap04.aux'.
+\openout2 = `capitulos/chap03.aux'.
 
- (chap04.tex) [20
+ (capitulos/chap03.tex) [19
+
+
+
+
+]
+\openout2 = `capitulos/chap04.aux'.
+
+ (capitulos/chap04.tex)
+[20
 
 
 
@@ -1360,23 +1362,24 @@ AED: lastpage setting LastPage
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
- (main.aux (chap01.aux) (chap02.aux) (chap03.aux) (chap04.aux)) ) 
+ (main.aux (capitulos/chap01.aux) (capitulos/chap02.aux)
+(capitulos/chap03.aux) (capitulos/chap04.aux)) ) 
 Here is how much of TeX's memory you used:
- 24309 strings out of 478583
- 400675 string characters out of 2849101
+ 24311 strings out of 478583
+ 401819 string characters out of 2849101
  874026 words of memory out of 3000000
  41779 multiletter control sequences out of 15000+600000
  549366 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,77p,1003b,489s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/oscar/.
-miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/oscar/.miktex/texmfs/i
-nstall/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/oscar/.miktex/texmfs/in
-stall/fonts/type1/urw/helvetic/uhvr8a.pfb></home/oscar/.miktex/texmfs/install/f
-onts/type1/urw/symbol/usyr.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/
-urw/symbol/usyr.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/u
-tmb8a.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb>
-</home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+{/home/oscar/.miktex/texmfs/ins
+tall/fonts/enc/dvips/base/8r.enc}</home/oscar/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></home/oscar/.miktex/texmfs/install/fonts/type1
+/urw/helvetic/uhvr8a.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/sy
+mbol/usyr.pfb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/symbol/usyr.p
+fb></home/oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/
+oscar/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/oscar/.mik
+tex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
 Output written on main.pdf (27 pages, 221351 bytes).
 PDF statistics:
  388 PDF objects out of 1000 (max. 8388607)
